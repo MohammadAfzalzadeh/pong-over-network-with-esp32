@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paddle Live Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎮 Paddle Live Arena</h1>
+    </header>
+
+    <div class="game-section">
+      <div class="info-panel">
+        <div class="scoreboard">
+          <span id="score">P1: 0 | P2: 0</span>
+          <span id="time">00:00</span>
+        </div>
+      </div>
+
+      <div class="oled-frame">
+        <canvas id="game" width="128" height="64"></canvas>
+      </div>
+
+      <!-- Energy Bars -->
+      <div class="energy-bars">
+        <div class="energy">
+          <label>P1</label>
+          <div class="bar-wrapper"><div class="bar" id="bar-left"></div></div>
+        </div>
+        <div class="energy">
+          <label>P2</label>
+          <div class="bar-wrapper"><div class="bar" id="bar-right"></div></div>
+        </div>
+      </div>
+
+      <!-- Win Message -->
+      <div id="winMessage" class="hidden">
+        <h2 id="winnerText">Player 1 Wins! 🏆</h2>
+      </div>
+    </div>
+
+    <footer>
+      <p>Status: <span id="status">🟢 Connected</span></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
