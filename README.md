@@ -4,9 +4,9 @@
 
 ### اعضای گروه:
 
-* محمدرضا مومنی یزدی - 
-* سید علی موسوی –
-* محمد افضل‌زاده – 
+* محمدرضا مومنی یزدی - [gihub link]()
+* سید علی موسوی – [gihub link](https://github.com/Mousavi-SA-8002)
+* محمد افضل‌زاده –  [gihub link](https://github.com/MohammadAfzalzadeh)
 
 
 ## معرفی پروژه
