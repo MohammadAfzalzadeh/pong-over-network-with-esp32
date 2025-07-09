@@ -4,7 +4,7 @@
 
 ### اعضای گروه:
 
-* محمدرضا مومنی یزدی - [gihub link]()
+* محمدرضا مومنی یزدی - [gihub link](https://github.com/MohamadReza-Momeni)
 * سید علی موسوی – [gihub link](https://github.com/Mousavi-SA-8002)
 * محمد افضل‌زاده –  [gihub link](https://github.com/MohammadAfzalzadeh)
 
